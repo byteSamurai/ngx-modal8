@@ -85,7 +85,7 @@ export class RouteModal implements OnInit, OnDestroy {
     // Private properties
     // -------------------------------------------------------------------------
 
-    @ViewChild("modalRoot")
+    @ViewChild("modalRoot", {static: true})
     public modalRoot: ElementRef;
 
     public isOpened = false;
