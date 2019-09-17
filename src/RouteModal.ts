@@ -66,7 +66,7 @@ export class RouteModal implements OnInit, OnDestroy {
     public submitButtonLabel: string;
 
     @Input()
-    public backdrop:boolen = true;
+    public backdrop = true;
 
     // -------------------------------------------------------------------------
     // Outputs
